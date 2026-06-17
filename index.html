@@ -1,0 +1,179 @@
+# Privacy Policy For BrainBloom Kids
+
+Last reviewed: 2026-06-17
+
+This draft is intended for Google Play submission preparation. It must be reviewed by the app owner and, where appropriate, legal counsel before publishing.
+
+## App Owner
+
+BrainBloom Kids is published by Jawahar Soundararajan. Japrinix is used as a product/domain brand owned by the developer.
+
+Contact:
+
+```text
+sjavagar@gmail.com
+```
+
+Needs confirmation before publishing:
+
+- Registered business address if required.
+- Public privacy policy URL.
+
+## Purpose Of The App
+
+BrainBloom Kids is a children-focused learning app for children aged 5 to 10. It provides learning activities such as math practice, word matching, memory games, and progress summaries.
+
+## Children's Privacy
+
+BrainBloom Kids is designed for children and should be used with parent or guardian awareness. The app asks for a nickname, age, and language preference so the learning experience can be set up on the device.
+
+Children should not enter a full legal name, address, phone number, email address, school name, or other sensitive personal information.
+
+## Data Stored On The Device
+
+Based on the reviewed source code, the app stores the following data locally using SharedPreferences:
+
+- Child nickname.
+- Child age.
+- Language preference.
+- Local child profile ID.
+- App settings, such as sound and voice prompt preferences.
+- Learning progress, including completed activity records, scores, stars, and completion dates.
+
+This information is stored on the user's device.
+
+## Data Collection And Transmission
+
+Based on the reviewed source code and release manifest:
+
+- The app does not implement account creation or login.
+- The app does not implement ads.
+- The app does not implement external analytics.
+- The app does not request location, camera, microphone, contacts, calendar, or storage permissions in the main Android manifest.
+- The app does not include Firebase, AdMob, Crashlytics, or social login SDKs.
+- The app does not include an API client that sends child profile or progress data to a server.
+
+Important: Final claims must be rechecked after the release AAB is built and before Play Console submission.
+
+## External Links And Support Contact
+
+The app includes user-initiated links for:
+
+- Support email: `sjavagar@gmail.com`
+- Website: `https://japrinix.com/`
+
+When a user opens an email app or browser, that external app or website may have its own privacy practices. Parents or guardians should handle support email and website visits.
+
+Needs confirmation before publishing:
+
+- Whether the website uses cookies, analytics, contact forms, server logs, or other data collection.
+- Whether support emails are stored in a mailbox or helpdesk system.
+- Whether any support process requests child information.
+
+## SDKs And Third-Party Libraries
+
+Detected direct app dependencies:
+
+- Flutter SDK
+- flutter_riverpod
+- go_router
+- shared_preferences
+- url_launcher
+- cupertino_icons
+
+Detected purpose:
+
+- App state management and navigation.
+- Local on-device storage.
+- Opening user-initiated support email or website links.
+- UI icons.
+
+No ads, analytics, crash reporting, login, payment, or location SDKs were detected in the reviewed source code.
+
+Needs confirmation before publishing:
+
+- Final dependency list after any future package changes.
+- Final built AAB inspection.
+- SDK provider data safety guidance if new SDKs are added.
+
+## How Data Is Used
+
+Local data is used to:
+
+- Set up a child learning profile.
+- Choose age-appropriate learning content.
+- Remember language preference.
+- Save learning progress on the device.
+- Show parent progress summaries.
+- Save app settings.
+
+The reviewed source code does not show server-side profiling, advertising, or analytics use.
+
+## Data Sharing
+
+Based on the reviewed source code, the app does not automatically share child profile or progress data with the developer or third parties.
+
+User-initiated support email and website visits are handled outside the app by the user's chosen email app or browser.
+
+Needs confirmation before publishing:
+
+- Final business support workflow.
+- Website privacy practices.
+- Any future backend, analytics, or crash-reporting services.
+
+## Data Retention
+
+Profile, settings, and progress data remain on the device until:
+
+- The user resets progress in Settings.
+- The user clears app storage.
+- The user uninstalls the app.
+
+The current app includes progress reset. Needs confirmation: whether a full child profile deletion control should be added before publishing.
+
+## Account Deletion
+
+The reviewed source code does not include user accounts or remote account creation.
+
+If accounts are added in the future, the app and privacy policy must include an account deletion flow and Play Console account deletion disclosures.
+
+## Security
+
+The app stores data locally on the device using platform local storage. The reviewed source code does not transmit child profile or progress data over the network.
+
+Device-level security, backups, and app storage protection depend on the user's Android device settings and operating system.
+
+## Parent Or Guardian Requests
+
+Parents or guardians can contact:
+
+```text
+sjavagar@gmail.com
+```
+
+Requests may include privacy questions, support questions, or requests related to data stored or handled through support communication.
+
+## Changes To This Policy
+
+This policy should be updated when:
+
+- The app adds a backend service.
+- The app adds analytics, ads, crash reporting, login, payments, or new SDKs.
+- The app changes what data is stored.
+- The app changes external links or support workflows.
+- Google Play policy requirements change.
+
+## Needs Confirmation Before Publishing
+
+- Final legal publisher identity.
+- Final privacy policy hosting URL.
+- Whether the app is solely child-directed or targets both children and families.
+- Website data practices.
+- Support email/helpdesk data practices.
+- Whether full local profile deletion is required in-app.
+- Final AAB permissions and SDKs.
+
+## Official Policy References
+
+- Google Play Data Safety: https://support.google.com/googleplay/android-developer/answer/10787469
+- Google Play Families Policies: https://support.google.com/googleplay/android-developer/answer/9893335
